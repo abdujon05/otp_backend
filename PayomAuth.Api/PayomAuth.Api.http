@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:5048
+@telephone = +992006995872
+@verificationCode = 123456
+
+###
+GET {{baseUrl}}/api/health
+
+###
+POST {{baseUrl}}/api/auth/sms/send
+Content-Type: application/json
+
+{
+  "telephone": "+992006995872"
+}
+
+###
+# Replace @verificationCode with the code received by SMS before sending.
+POST {{baseUrl}}/api/auth/sms/verify
+Content-Type: application/json
+
+{
+  "telephone": "+992006995872",
+  "code": "714981"
+}

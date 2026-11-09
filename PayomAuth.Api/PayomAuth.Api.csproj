@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a3c1e5e2-852c-45a1-891c-6b23d927f06e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PayomAuth.Core\PayomAuth.Core.csproj" />
+    <ProjectReference Include="..\PayomAuth.Infrastructure\PayomAuth.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

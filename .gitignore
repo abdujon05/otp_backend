@@ -1,0 +1,11 @@
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Local configuration containing credentials
+PayomAuth.Api/appsettings.Development.local.json
+.env
+.env.*
+!.env.example

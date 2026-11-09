@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PayomAuth.Api/PayomAuth.Api.csproj" />
+  <Project Path="PayomAuth.Core/PayomAuth.Core.csproj" />
+  <Project Path="PayomAuth.Infrastructure/PayomAuth.Infrastructure.csproj" />
+</Solution>
